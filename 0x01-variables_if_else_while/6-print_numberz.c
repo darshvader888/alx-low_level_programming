@@ -4,6 +4,7 @@
  * Description: print all numbers of base 10, starting from 0.
  * No char allowed
  * Use 'putchar' twice
+ * Return: 0
  */
 int main(void)
 {
