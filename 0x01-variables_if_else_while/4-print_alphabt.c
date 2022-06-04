@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
+/**
  * main - main block
- * Description: Use 'putchar' to print all the letters except q and e
+ * Description: Use 'putchar' to print all the letters except q and e.
  * Return: 0
  */
-int main()
+int main(void)
 {
 	char c = 'a';
 
