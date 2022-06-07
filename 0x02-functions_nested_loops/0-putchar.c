@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	char character = "_";
-	_putchar(character);
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char print[9] = "_putchar";
+
+	int a = 0;
+
+	while (a < 8)
+	{
+		_putchar(print[a]);
+		a++;
+	}
 	_putchar('\n');
 
 	return (0);
