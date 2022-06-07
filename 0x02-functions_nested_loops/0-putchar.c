@@ -5,14 +5,15 @@
  */
 int main(void)
 {
-	char print[9] = "_putchar";
+	char word[9] = "_putchar";
 
-	int a = 0;
+	int i = 0;
 
-	while (a < 8)
+
+	while (i < 8)
 	{
-		_putchar(print[a]);
-		a++;
+		_putchar(word[i]);
+		i++;
 	}
 	_putchar('\n');
 
