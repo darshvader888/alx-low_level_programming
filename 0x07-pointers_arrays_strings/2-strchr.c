@@ -4,6 +4,7 @@
  * *_strchr - locates a character to a string
  * @s: string to search
  * @c: char to find
+ * @a: to keep tabs
  * Return: a pointer to the first c in the string s
  * or NULL if not found
  */
