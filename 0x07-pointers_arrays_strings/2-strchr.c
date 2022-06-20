@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * *_strchr - locates a character to a string
  * @s: string to search
  * @c: char to find
- * Return: a pointer to the first c
+ * Return: a pointer to the first c in the string s
+ * or NULL if not found
  */
 char *_strchr(char *s, char c)
 {
