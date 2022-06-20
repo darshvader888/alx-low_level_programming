@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_strchr - locates a character to a string
+ * *_strchr - locates a character in a string
  * @s: string to search
  * @c: char to find
- * @a: to keep tabs
  * Return: a pointer to the first c in the string s
  * or NULL if not found
  */
