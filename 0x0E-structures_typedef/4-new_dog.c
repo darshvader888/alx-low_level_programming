@@ -20,7 +20,9 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies the string
+ * *_strcpy - copies the string pointed to by src
+ * including the terminating null byte
+ * to the buffer pointed to by dest
  * @dest: pointer to buffer in which string copied
  * @src: string to copy
  * Return: pointer to dest
@@ -46,7 +48,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - creates a new dog
+ * *new_dog - creates a new dog
  * @name: name of new dog
  * @age: age of new dog
  * @owner: owner of new dog
