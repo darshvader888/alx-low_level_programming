@@ -1,5 +1,6 @@
 #include "lists.h"
-/** add_nodeint - adds a new node at the beginning of  alinked list
+/**
+ *add_nodeint - adds a new node at the beginning of  alinked list
  * @head: pointer to the first node in list
  * @n: data to insert
  * Return: pointer to new node or NULL
